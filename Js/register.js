@@ -21,6 +21,7 @@ registerBtn.onclick = function() {
 
     if (password === repeatPassword) {
         createUser(data)
+        hiddenModal()
     }
 }
 
